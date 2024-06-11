@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply bg-gray-300 px-3 rounded-full;
+  }
+
+  a {
+    @apply text-blue-600 font-semibold;
+  }
+
+  input {
+    @apply border focus:outline-none focus:border-blue-300 rounded-lg focus:ring-1 p-1 transition duration-200;
+  }
+
+  button {
+    @apply bg-blue-700 hover:bg-blue-600 transition duration-200 text-white p-2 rounded-lg text-center mt-2;
+  }
+}
